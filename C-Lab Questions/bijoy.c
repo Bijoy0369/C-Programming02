@@ -1,14 +1,15 @@
+//C Program To Swap Two Numbers Using Third Variable 
+
 #include <stdio.h>
-int main() {    
-
-    int number1, number2, sum;
-    
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
-
-    // calculate the sum
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+int main()
+{
+int v1, v2, temp;
+printf("Enter two Number");
+scanf("%d%d", &v1, &v2);
+printf("Before Swapping \n First variable = %d \n Second variable = %d \n", v1, v2);
+temp = v1;
+v1 = v2;
+v2 = temp;
+printf("After Swapping \n First variable = %d \n Second variable = %d \n", v1, v2);
+return 0;
 }
