@@ -4,7 +4,7 @@
   
 int main()   
 {   
- float Pi= 3.14159, radius,area;
+ float Pi= 3.14, radius,area;
   
   
 printf("Enter the radius of the circle: ");  
