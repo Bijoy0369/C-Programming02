@@ -1,6 +1,7 @@
 #include<stdio.h>
-int main(){
-        int n,a,s=0,r;
+int main()
+{
+        int n,a,r,s=0;
         printf("Enter any number:- ");
         scanf("%d",&n);
         
@@ -12,12 +13,14 @@ int main(){
             n=n/10;
         }
         if(a==s)
-        printf("Armstrong Number");
+        {
+            printf("Armstrong Number");
+        }
+        
         else
-          printf("Not Armstrong Number");
-
-
-
+       {
+             printf("Not Armstrong Number");
+       }
 
     return 0;
 }
